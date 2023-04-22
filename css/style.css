@@ -1,0 +1,15 @@
+body {
+    background-color: bisque;
+    height: 100%;
+    width: auto;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 10px;
+}
