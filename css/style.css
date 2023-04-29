@@ -14,10 +14,9 @@ body {
 }
 
 /* Homepage / Landing Page */
-.main-page,
-.main-page-game1 {
+.main-page {
     display: flex;
-    height: 75%;
+    height: 100%;
     align-items: center;
     flex-direction: column;
     border: 5px solid #fff;
