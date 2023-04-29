@@ -13,32 +13,37 @@ body {
     font-size: 16px;
 }
 
-.main-page {
+/* Homepage / Landing Page */
+.main-page,
+.main-page-game1 {
     display: flex;
     height: 75%;
-    /* justify-contsent: center; */
     align-items: center;
     flex-direction: column;
     border: 5px solid #fff;
     margin: 50px;
 }
 
-.main-page h1 {
+.main-page h1,
+.main-page-game1 h1 {
     font-family: 'Source Code Pro', monospace;
     padding: 30px 0 10px 0 ;
     font-size: 50px;
 }
 
-.main-page h1 span {
+.main-page h1 span,
+.main-page-game1 h1 span {
     color: springgreen;
 }
 
-.main-page p {
+.main-page p,
+.main-page-game1 p {
     font-family: 'Roboto Mono', monospace;
     padding: 20px;
 }
 
-.main-page .buttons {
+.main-page .buttons,
+.main-page-game1 .buttons {
     padding: 20px;
     text-align: center;
 }
@@ -57,3 +62,26 @@ body {
 .buttons a:hover {
     color: springgreen;
 }
+
+/* Game 1 Landing Page */
+.main-page-game1 {
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid #fff;
+    margin: 50px;
+    padding: 0 30px;
+}
+
+.rps-div {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 20px;
+}
+
+
+  
+  
