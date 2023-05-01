@@ -47,7 +47,6 @@ body {
 .buttons a {
     font-size: 22px;
     color: #fff;
-    background-color: black;
     text-decoration: none;
     border: 3px solid white;
     border-radius: 3px;
@@ -143,8 +142,6 @@ body {
     color: springgreen;
 }
 
-/*  */
-
 .home-and-rules-buttons {
     display: flex;
     justify-content: space-between;
@@ -211,3 +208,136 @@ body {
   }
   
   
+  /* --- MEDIA QUERIES --- */
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        width: auto;
+        height: auto;
+        font-size: 10px;
+    }
+    .main-page h1, .main-page-game1 h1 {
+        padding: 0;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .main-page p, .main-page-game1 p {
+        padding: 2px;
+        text-align: center;
+    }
+
+    .buttons a {
+        font-size: 10px;
+        color: #fff;
+        text-decoration: none;
+        border: 3px solid white;
+        border-radius: 3px;
+        padding: 2px;
+        margin: 5px;
+    }
+}
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        width: auto;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .main-page h1, .main-page-game1 h1 {
+        padding: 0;
+        font-size: 25px;
+    }
+
+    .main-page p, .main-page-game1 p {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .buttons a {
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        border: 3px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        font-size: 16px;
+    }
+
+    .main-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 10px;
+    }
+
+    .main-page h1, .main-page-game1 h1 {
+        padding: 0;
+        font-size: 33px;
+    }
+
+    .main-page p, .main-page-game1 p {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .buttons a {
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        border: 3px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        font-size: 20px;
+    }
+
+    .main-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .main-page h1, .main-page-game1 h1 {
+        padding: 0;
+        font-size: 55px;
+    }
+
+    .main-page p, .main-page-game1 p {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .buttons a {
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+        border: 3px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        margin: 10px;
+    }
+}
