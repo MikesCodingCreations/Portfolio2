@@ -11,31 +11,35 @@
     <title>Game One</title>
 </head>
 <body>
+    <div class="game1-wrapper">
 
-    <div class="buttons home-button">
-        <a href="./index.html">HOME</a>
-    </div>
-
-    <div class="main-page-game1">
-        <h1>Welcome to <span>Game One:</span></h1>
-        <h2>Rock - Paper - Scissors</h2>
-
-        <div class="rps-container">
-            <div class="wrapper">
-                <div class="buttons">
-                  <button class="rpsButton" value="Rock">🪨</button>
-                <button class="rpsButton" value="Paper">🧻</button>
-                  <button class="rpsButton" value="Scissors">✂️</button>
+        <div class="buttons home-and-rules-buttons">
+            <a href="./index.html">HOME</a>
+            <a href="">RULES</a>
+        </div>
+        
+        <div class="main-page-game1">
+            <h1>Welcome to <span>Game One:</span></h1>
+            <h2>Rock Paper Scissors</h2>
+            
+            <div class="rps-container">
+                <div class="wrapper">
+                    <div class="buttons">
+                        <button class="rpsButton" value="Rock">🪨</button>
+                        <button class="rpsButton" value="Paper">🧻</button>
+                        <button class="rpsButton" value="Scissors">✂️</button>
+                    </div>
+                    <div class="resultContainer">
+                        <div id="player-score"></div>
+                        <div id="computer-score"></div>
+                        <div id="hands"></div>
+                        <div id="result"></div> <br>
+                        <button id='endGameButton'>🛑</button>
+                    </div>
                 </div>
-                <div class="resultContainer">
-                <div id="player-score"></div>
-                <div id="hands"></div>
-                <div id="result"></div>
-                <button id='endGameButton'>🛑</button>
-                </div>
-                </div>
+            </div>
         </div>
     </div>
-    
-</body>
-</html>
+        <script src="./script.js"></script>
+    </body>
+    </html>
