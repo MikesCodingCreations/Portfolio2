@@ -1,11 +1,19 @@
+// JS for Game 1 Rules Popup button 
+function togglePopup() {
+    document.getElementById('popup-1').classList.toggle('active');
+}
+
+// JS for Game 1 Play
 const totalScore = {computerScore: 0, playerScore: 0}
 
+// Function that randomizes the computers choise
 function getComputerChoice() {
     const rpsChoice = ['Rock', 'Paper', 'Scissors']
     const randomNumber = Math.floor(Math.random() * 3)
     return rpsChoice[randomNumber]
 }
 
+// Function that gets the results of the game 
 function getResult(playerChoice, computerChoice){
     // This function will return the result of the score if you win, lose or draw.
     let score;
@@ -26,6 +34,7 @@ function getResult(playerChoice, computerChoice){
     return score
 }
 
+// Funtion that displays the score in the HTML page
 function showResult(score, playerChoice, computerChoice) {
     const resultDiv = document.getElementById('result')
     const handsDiv = document.getElementById('hands')
@@ -45,7 +54,6 @@ function showResult(score, playerChoice, computerChoice) {
 
     handsDiv.innerText = 
     `🧑 - ${playerChoice} 
-    VS
     💻 - ${computerChoice}`
     playerScoreDiv.innerText = `Your Score: ${totalScore['playerScore']}`
 }
@@ -76,6 +84,7 @@ function playGame() {
     endGameButton.onclick = () => endGame(totalScore)
 }
 
+// Funtion that enables the user to restart/end the game and clear the score
 function endGame(totalScore) {
     totalScore['playerScore'] = 0
     totalScore['computerScore'] = 0

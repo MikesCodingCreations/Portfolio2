@@ -14,27 +14,48 @@
     <div class="game1-wrapper">
 
         <div class="buttons home-and-rules-buttons">
+            <!-- Home Button -->
             <a href="./index.html">HOME</a>
-            <a href="">RULES</a>
-        </div>
+
+            <!-- Popup Rules Button -->
+                <div class="popup" id="popup-1">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <div class="close-btn" onclick="togglePopup()">&times;</div>
+                        <h1>Rock Paper Scissors Rules</h1>
+                        <p>The idea of the game is to beat the computer. First to a score of 10 wins</p>
+                        <p>You may click on the 'Rock', 'Paper' or 'Scissors' button to select your choice</p>
+                        <p>Your score will be displayed after each selection</p>
+                        <ul>
+                            <li>🪨 defeats ✂️</li>
+                            <li>🧻 defeats 🪨</li>
+                            <li>✂️ defeats 🧻</li>
+                        </ul>
+                        <p>To restart the game, click on the red stop button 🔄</p>
+                    </div>
+                </div>
         
+                <button onclick="togglePopup()" id="show-rules-btn">Game Rules</button>
+        </div>
+
+
         <div class="main-page-game1">
-            <h1>Welcome to <span>Game One:</span></h1>
-            <h2>Rock Paper Scissors</h2>
+            <h1>Welcome to Game One</h1>
+            <h2><span>Rock Paper Scissors</span></h2>
             
             <div class="rps-container">
                 <div class="wrapper">
                     <div class="buttons">
-                        <button class="rpsButton" value="Rock">🪨</button>
-                        <button class="rpsButton" value="Paper">🧻</button>
-                        <button class="rpsButton" value="Scissors">✂️</button>
+                        <button class="rpsButton game-buttons" value="Rock">🪨</button>
+                        <button class="rpsButton game-buttons" value="Paper">🧻</button>
+                        <button class="rpsButton game-buttons" value="Scissors">✂️</button>
                     </div>
                     <div class="resultContainer">
                         <div id="player-score"></div>
                         <div id="computer-score"></div>
                         <div id="hands"></div>
                         <div id="result"></div> <br>
-                        <button id='endGameButton'>🛑</button>
+                        <button id="endGameButton" class="game-buttons" >🔄</button>
                     </div>
                 </div>
             </div>

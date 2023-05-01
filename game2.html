@@ -8,20 +8,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&family=Source+Code+Pro:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link type="image/png" sizes="16x16" rel="icon" href="icons8-tic-tac-toe-16.png">
+    <link rel="stylesheet" href="./css/buttonPopupStyle.css">
     <title>Game Two</title>
 </head>
 <body>
+    <div class="game2-wrapper">
 
-    <div class="buttons">
-        <a href="./index.html">HOME</a>
-    </div>
+        <div class="buttons home-and-rules-buttons">
+            <!-- Home Button -->
+            <a href="./index.html">HOME</a>
 
-    <div class="main-page">
-        <h1>Welcome to <span>Game Two:</span></h1>
-        <h2>Tick Tac Toe</h2>
-        <p>Here you </p>
+            <!-- Popup Rules Button -->
+                <div class="popup" id="popup-1">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <div class="close-btn" onclick="togglePopup()">&times;</div>
+                        <h1>Tic Tac Toe Rules:</h1>
+                        <p>The idea of the game is to beat the computer. First to a score of 10 wins</p>
+                        <p>XXX</p>
+                        <p>XXX</p>
+                        <p>To restart the game, click on the red stop button 🔄</p>
+                    </div>
+                </div>
+        
+                <button onclick="togglePopup()" id="show-rules-btn">Game Rules</button>
+        </div>
+
+
+        <div class="main-page-game2">
+            <h1>Welcome to <span>Game Two:</span></h1>
+            <h2>Tic Tac Toe</h2>
+        </div>
     </div>
-    
-</body>
-</html>
+        <script src="./script.js"></script>
+    </body>
+    </html>

@@ -1,6 +1,4 @@
-/* font-family: 'Roboto Mono', monospace;
-font-family: 'Source Code Pro', monospace; */
-
+/* Main Body / Index.html Page */
 body {
     background-color: black;
     color: #fff;
@@ -11,6 +9,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 /* Homepage / Landing Page */
@@ -25,19 +24,17 @@ body {
 
 .main-page h1,
 .main-page-game1 h1 {
-    font-family: 'Source Code Pro', monospace;
     padding: 30px 0 10px 0 ;
     font-size: 50px;
 }
 
 .main-page h1 span,
-.main-page-game1 h1 span {
+.main-page-game1 span {
     color: springgreen;
 }
 
 .main-page p,
 .main-page-game1 p {
-    font-family: 'Roboto Mono', monospace;
     padding: 20px;
 }
 
@@ -62,11 +59,91 @@ body {
     color: springgreen;
 }
 
-/* Game 1 Landing Page */
+/* ----- GAME 1 ----- */
+
+/* Landing Page */
 .game1-wrapper {
-    height: 100%;
-    width: auto;
+    height: 100vh;
+    width: 100vh;
 }
+
+/* Popup Rules Button */
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 450px;
+    height: 450px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-shadow: border-box;
+    color: black;
+}
+
+.popup .content li {
+    list-style-type: none;
+}
+
+.popup .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%
+}
+
+.close-btn:hover {
+    cursor: pointer;
+    color: springgreen;   
+}
+
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#show-rules-btn {
+    font-size: 22px;
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#show-rules-btn:hover {
+    color: springgreen;
+}
+
+/*  */
 
 .home-and-rules-buttons {
     display: flex;
@@ -74,26 +151,34 @@ body {
     align-items: center;
 }
 
+/* Main Page Game 1 */
+
 .main-page-game1 {
     display: flex;
-    height: 100%;
+    height: auto;
     width: auto;
     align-items: center;
     flex-direction: column;
     border: 5px solid #fff;
-    margin: 20px;
+    margin: 10px;
     padding: 0 30px;
 }
 
 .main-page-game1 h1 {
     padding: 0;
+    margin: 10px 0 10px 0;
 }
 
-/* .rps-container {
+.main-page-game1 h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.rps-container {
     width: 500px;
     height: 500px;
     margin: 20px;
-} */
+}
 
 .wrapper {
     color: #fff;
@@ -110,14 +195,13 @@ body {
     gap: 20px;
   }
   
-  button {
-    height: 90px;
-    width: 90px;
+  .game-buttons {
+    height: auto;
+    width: 80px;
     font-size: 60px;
-    border-radius: 30px;
     cursor: pointer;
-    background-color: #fff;
-    
+    background-color: black;
+    border: none;
   }
   
   .resultContainer {
