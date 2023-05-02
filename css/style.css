@@ -85,7 +85,7 @@ body {
     transform: translate(-50%, -50%) scale(0);
     background: #fff;
     width: 450px;
-    height: 450px;
+    height: 600px;
     z-index: 2;
     text-align: center;
     padding: 20px;
@@ -150,6 +150,12 @@ body {
 
 /* Main Page Game 1 */
 
+
+.game1-wrapper {
+    width: auto;
+    height: auto;
+}
+
 .main-page-game1 {
     display: flex;
     height: auto;
@@ -172,8 +178,8 @@ body {
 }
 
 .rps-container {
-    width: 500px;
-    height: 500px;
+    width: auto;
+    height: auto;
     margin: 20px;
 }
 
@@ -325,7 +331,7 @@ body {
     }
 
     .buttons a {
-        font-size: 14px;
+        font-size: 22px;
         color: #fff;
         text-decoration: none;
         border: 3px solid white;
@@ -376,8 +382,8 @@ body {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     body {
-        width: 100vw;
-        height: 100vh;
+        width: auto;
+        height: auto;
         font-size: 20px;
     }
 
@@ -386,11 +392,14 @@ body {
         justify-content: center;
         align-items: center;
         padding: 10px 20px;
+        width: auto;
+        height: auto;
     }
 
     .main-page h1, .main-page-game1 h1 {
         padding: 0;
         font-size: 55px;
+        text-align: center;
     }
 
     .main-page p, .main-page-game1 p {
