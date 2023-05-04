@@ -1,8 +1,4 @@
-/* -- 
-  *********
-Main Body / Index.html Page
-  *********
-  -- */
+/* Main body */
 
 body {
     background-color: black;
@@ -311,15 +307,24 @@ Game 2
         height: auto;
         font-size: 10px;
     }
+    
+    .main-page {
+        width: 90%;
+    }
+    
     .main-page h1, .main-page-game1 h1 {
         padding: 0;
-        font-size: 17px;
+        font-size: 30px;
         text-align: center;
     }
 
     .main-page p, .main-page-game1 p {
         padding: 2px;
         text-align: center;
+    }
+
+    .main-page-game1 h2 {
+        font-size: 20px;
     }
 
     .buttons {
@@ -361,7 +366,7 @@ Game 2
     }
 
     .home-and-rules-buttons a{
-        font-size: 22px;
+        font-size: 16px;
         margin: 5px;
         padding: 5px;
     }
@@ -369,17 +374,22 @@ Game 2
     #show-rules-btn {
         margin: 5px;
         padding: 5px;
+        font-size: 16px;
     }
 
     .main-page-game1{
         max-width: 100%;
         padding: 0 10px;
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     .rps-container {
         width: 90%;
         height: 90%;
+    }
+
+    .resultContainer {
+        font-size: 18px;
     }
 
     /* Popup button */

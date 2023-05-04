@@ -174,7 +174,18 @@
   /* --- MEDIA QUERIES --- */
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    
+  
+  #show-rules-btn,
+  .buttons a {
+    font-size: 16px;
+  }
+  .popup-content {
+    font-size: 10px;
+  }
+
+  .popup-content h1{
+    padding-top: 15px;
+  }
 
   .homebtn {
     font-size: 22px;
@@ -190,7 +201,26 @@
 
   .popup .content {
     height: auto;
+    width: 250px;
+  }
+
+  .main-page-game2 {
     width: auto;
+    height: auto;
+    margin: 0 10px;
+  }
+
+  .main-page-game2 h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .main-page-game2 h2 {
+    font-size: 20px;
+  }
+
+  .display {
+    font-size: 16px;
   }
 }
 
