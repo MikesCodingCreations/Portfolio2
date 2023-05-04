@@ -297,8 +297,8 @@ body {
 
     /* Popup button */
     .popup .content {
-        width: 300px;
-        height: 225px;
+        width: 250px;
+        height: 300px;
     }
 
     .popup .close-btn {
@@ -340,6 +340,12 @@ body {
         margin: 10px;
     }
 
+     /* Popup button */
+     .popup .content {
+        width: 450px;
+        height: 350px;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -375,6 +381,12 @@ body {
         border-radius: 3px;
         padding: 5px;
         margin: 10px;
+    }
+
+     /* Popup button */
+     .popup .content {
+        width: 600px;
+        height: 400px;
     }
 
 }
@@ -415,5 +427,10 @@ body {
         border-radius: 3px;
         padding: 5px;
         margin: 10px;
+    }
+     /* Popup button */
+     .popup .content {
+        width: 700px;
+        height: 470px;
     }
 }
