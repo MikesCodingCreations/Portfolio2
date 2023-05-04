@@ -5,5 +5,7 @@ Scissors Emoji - https://emojipedia.org/scissors/
 Restart Emoji - https://emojipedia.org/counterclockwise-arrows-button/
 Person Emoji - https://emojipedia.org/person/
 Computer Eomji - https://emojipedia.org/laptop/
+X Emoji - https://emojipedia.org/cross-mark/
+O Emoji - https://emojipedia.org/hollow-red-circle/
 
  -->

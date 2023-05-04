@@ -1,4 +1,4 @@
-// JS for Game 1 Rules Popup button 
+// JS for Rules Popup button 
 function togglePopup() {
     document.getElementById('popup-1').classList.toggle('active');
 }
@@ -15,19 +15,15 @@ function getComputerChoice() {
 
 // Function that gets the results of the game 
 function getResult(playerChoice, computerChoice){
-    // This function will return the result of the score if you win, lose or draw.
     let score;
-        // If there is a draw 'player = computer choice' then it is a draw aka '0'.
     if (playerChoice == computerChoice) {
         score = 0
-        // Each 'else if' resembles the player beating the computer.
     } else if (playerChoice == 'Rock' && computerChoice === 'Scissors') {
         score = 1
     } else if (playerChoice == 'Paper' && computerChoice === 'Rock') {
         score = 1
     } else if (playerChoice == 'Scissors' && computerChoice === 'Paper') {
         score = 1
-        // The 'else' resembles the player loosing to the computer.
     } else {
         score = -1
     }
@@ -40,14 +36,11 @@ function showResult(score, playerChoice, computerChoice) {
     const handsDiv = document.getElementById('hands')
     const playerScoreDiv = document.getElementById('player-score')
     const computerScoreDiv = document.getElementById('computer-score')
-    
-    // If you loose, you will be displayed with the following text:
+
     if (score == -1) {
         resultDiv.innerText = 'You Lose!'
-    // If you draw, you will be displayed with the following text:
     } else if (score == 0){
         resultDiv.innerText = 'You Drew!'
-    // If you win, you will be displayed with the following text:
     } else {
         resultDiv.innerText = 'You Won!'
     }
@@ -62,12 +55,9 @@ function showResult(score, playerChoice, computerChoice) {
 // Main game logic
 function onClickRPS(playerChoice) {
     const computerChoice = getComputerChoice()
-    // Compute the result based on PC and CC
     const score = getResult(playerChoice, computerChoice)
-    // Scoreboard updates
     totalScore['playerScore'] += score
     totalScore['computerScore'] += score
-    // Score is show on screen
     showResult(score, playerChoice, computerChoice)
 }
 

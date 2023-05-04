@@ -7,65 +7,62 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&family=Source+Code+Pro:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <title>Game Two</title>
 </head>
 <body>
+    <!-- Main wrapper around all content -->
     <div class="game1-wrapper">
-
+        <!-- Div for home and rules button -->
         <div class="buttons home-and-rules-buttons">
             <!-- Home Button -->
-            <a href="../index.html">HOME</a>
-
+            <a href="../index.html" class="homebtn">HOME</a>
             <!-- Popup Rules Button -->
-                <div class="popup" id="popup-1">
-                    <div class="overlay"></div>
-                    <div class="content">
-                        <div class="close-btn" onclick="togglePopup()">&times;</div>
-                        <h1>Rock Paper Scissors Rules</h1>
-                        <p>The idea of the game is to beat the computer. First to a score of 10 wins</p>
-                        <p>You may click on the 'Rock', 'Paper' or 'Scissors' button to select your choice</p>
-                        <p>Your score will be displayed after each selection</p>
-                        <ul>
-                            <li>🪨 defeats ✂️</li>
-                            <li>🧻 defeats 🪨</li>
-                            <li>✂️ defeats 🧻</li>
-                        </ul>
-                        <p>To restart the game, click on the red stop button 🔄</p>
-                    </div>
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>                        
+                    <h1>Tic Tac Toe Rules</h1>
+                    <p>This is a two player game</p>
+                    <p>First, choose who will start, X will always go first</p>
+                    <p>Take turns to pick a tile and fill with either ❌ or ⭕</p>
+                    <p>The aim of the game is to get 3 identical symbols in a row</p>
+                    <p>Winning combiniations are:</p>
+                    <ul>
+                        <li>Three in a row</li>
+                        <li>Three in a column</li>
+                        <li>Three diagonally</li>
+                    </ul>
+                    <p>To restart the game, click on the red stop button 🔄</p>
                 </div>
-                <button onclick="togglePopup()" id="show-rules-btn">Rules</button>
-        </div>
+            </div>
+            <button onclick="togglePopup()" id="show-rules-btn">Rules</button>
+    </div>
 
 
         <div class="main-page-game2">
             <h1>Welcome to Game Two</h1>
-            <h2><span>Tic Tac Toe</span></h2>
-            
-            <main class="background">
-                <section class="title">Tic Tac Toe</section>
-            </main>
-            <section class="display">
-                Player <span class="display-player playerX">X</span>'s turn'
-            </section>
-            <section class="game2-container">
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-            </section>
-            <section class="display announcer hide"></section>
-            <section class="controls">
-                <button class="reset">Reset</button>
-            </section>
-
+            <h2>Tic Tac Toe</h2>
+                <section class="display">
+                    Player <span class="display-player playerX">X</span>'s turn
+                </section>
+                <section class="game2-container">
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                </section>
+                <section class="display announcer hide"></section>
+                <section class="controls">
+                    <button id="reset">🔄</button>
+                </section>
         </div>
     </div>
-        <script src="../script.js"></script>
+        <script src="../script2.js"></script>
     </body>
     </html>

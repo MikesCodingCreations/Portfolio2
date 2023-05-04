@@ -1,4 +1,9 @@
-/* Main Body / Index.html Page */
+/* -- 
+  *********
+Main Body / Index.html Page
+  *********
+  -- */
+
 body {
     background-color: black;
     color: #fff;
@@ -23,8 +28,9 @@ body {
 }
 
 .main-page h1,
-.main-page-game1 h1 {
-    padding: 30px 0 10px 0 ;
+.main-page-game1 h1,
+.main-page-game2 h1 {
+    padding: 20px 0 10px 0 ;
     font-size: 50px;
 }
 
@@ -58,7 +64,11 @@ body {
     color: springgreen;
 }
 
-/* ----- GAME 1 ----- */
+/* -- 
+  *********
+Game 2
+  *********
+  -- */
 
 /* Landing Page */
 .game1-wrapper {
@@ -148,8 +158,6 @@ body {
     align-items: center;
 }
 
-/* Main Page Game 1 */
-
 
 .game1-wrapper {
     width: auto;
@@ -212,7 +220,86 @@ body {
     text-align: center;
     margin-top: 10px;
   }
+
+  /* -- 
+  *********
+  GAME 2 
+  *********
+  -- */
+  .main-page-game2 {
+    background: black;
+    height: auto;
+    width: auto;
+    padding-top: 2px;
+    border: 5px solid white;
+    padding: 0 20px 20px 20px;
+  }
+
+  .title {
+    color: springgreen;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .hide {
+    display: none;
+  }
   
+  .game2-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+  }
+
+  .tile {
+    border: 3px solid white;
+    min-height: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  .playerX {
+    color: red;
+  }
+
+  .playerO {
+    color: blue;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+  }
+
+  #reset {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    border: 3px solid white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  #reset:hover {
+    color: springgreen;
+  }
   
   /* --- MEDIA QUERIES --- */
 
