@@ -49,15 +49,15 @@ This project utilizes HTML, CSS and JavaScript.
 
 - __Game 2 Section__
 
-  - The about section will allow the user to quickly and easily understand the main concent of Bitcoin.
-  - This user will also be able to use video controls (pause, play, full screen, mute etc.) to preview a short and simply video explansation from an extrernal site of what Bitcoin is. 
-  - Further to this, users will be able to navigate to the external link so they may conduct further research on what Bitcoin is via the Bitcoin.org website.
+  - 
+
 
 ![About Section](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_about_section.png)
 
 ### Features Left to Implement
 
-- A gallery of more Bitcoin images
+- A gallery of images where users can see winning combinations. 
+
 - A 'partnership/user' section detailing entetites that have integrated Bitcoin
 - A live API that displays the live price for Bitcoin
 
@@ -82,13 +82,11 @@ However, after a few tests, i changed the link to the correct filepath:
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official 
-  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmikescodingcreations.github.io%2FPortfolio1%2F)
-  [W3C validator image](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_w3c_validator.png)
+  - No errors were returned when passing through the official.
 - CSS
-  - No errors were found when passing through the official 
-  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmikescodingcreations.github.io%2FPortfolio1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  [Jigsaw validator image](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_jigsaw_validator.png)
+  - No errors were found when passing through the official. 
+- JShnit
+  - 
 
 ### Unfixed Bugs
 
@@ -101,24 +99,13 @@ N/A
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://mikescodingcreations.github.io/Portfolio1/ 
-
+The live link can be found here - XXX
 
 ## Credits 
 
-Credits go to the below links for their information on how to build this site and for providing information that has been used such as image, text and video.
+Credits go to the below links for their information on how to build this site and for providing information that has been used such as icons.
 
 # Content 
-
-- Information on the Hero section was taken from the Bitcoin website [Bitcoin] (https://bitcoin.org/en/)
-- The text for the about section was taken from Wikipedia [Wikipedia] (https://en.wikipedia.org/wiki/Bitcoin)
-- Info for the timeline section (bitcoin price history) was taken from two sites 
-    [Statista] (https://www.statista.com/statistics/326707/bitcoin-price-index/) 
-    and [Investopedia] (https://www.investopedia.com/articles/forex/121815/bitcoins-price-history.asp)
-- Instructions on how to create this site was taken from the CI project 1 course [Link to CI](https://codeinstitute.net/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Information on the Bitcoin color code was taken from [Design_Pieces] ( https://www.designpieces.com/palette/bitcoin-colour-palette-hex-and-rgb/#:~:text=The%20Bitcoin%20logo%20comprises%20three,the%20logotype%20text)%20and%20White. )
-
 
 ### Media
 
