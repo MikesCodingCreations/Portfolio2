@@ -1,5 +1,4 @@
  # Double Games
-
 The 'Double Games' website is a gaming website that allows users to play a selection of games.
 Users have access to playing 'Rock Paper Scissors' which is against the computer (randomized game).
 Users also have access playing a two player game - 'tick tac toe'.
@@ -12,16 +11,14 @@ This project utilizes HTML, CSS and JavaScript.
 ### Features 
 
 - __Landing Page__
-
   - Users are taken to the 'Double Games' landing page when they first navigate to the link.
   - The website uses a simple, Black and 'Spring Green' colour palet. The reason for this choice is that they remind users of simple black and white games with a touch of color.
   - On this section of the site, users have access to information about the website, and the choice of two games by using the directed buttons.
 
-![Landing Page]()
+![Landing Page](https://github.com/MikesCodingCreations/Portfolio2/blob/main/assets/media/landingpageonly.png)
 
 
 - __Game 1 Section__
-
   - The game 1 page is a simple human vs computer 'rock paper scissors' game.
   - Users will be able to select their choice of 'rock', 'paper' or 'scissors' by selecting the relevant emoji.
   - Users are also presented with a 'restart' button which will clear the scoreboard and start over.
@@ -31,10 +28,9 @@ This project utilizes HTML, CSS and JavaScript.
   - Users may utilize the 'rules' button at the top right of the page to find out how to play.
   - Users can click on the 'Home' button at the top left of the page to navigate back home.
 
-![Game 1 Section]()
+![Game 1 Section](https://github.com/MikesCodingCreations/Portfolio2/blob/main/assets/media/game1only.png)
 
 - __Game 2 Section__
-
   - The game 2 page is a simple human vs human (2 player) 'tic tac toe' game.
   - This is also known as '3 in a row' or 'naughts and crosses'
   - Two users will be able to take turns selecting a space on the 3 x 3 grid.
@@ -47,10 +43,17 @@ This project utilizes HTML, CSS and JavaScript.
   - Users may utilize the 'rules' button at the top right of the page to find out how to play.
   - Users can click on the 'Home' button at the top left of the page to navigate back home.
 
-![Game 2 Section]()
+![Game 2 Section](https://github.com/MikesCodingCreations/Portfolio2/blob/main/assets/media/game2only.png)
+
+- __Game 1 & 2 Rules Section__
+  - Users can access the rules section from the game 1 & 2 page using the rules button.
+  - This allows users to view rules on how to play the game.
+  - Users can remove the rules popup by hovering over the 'x' button at the top right of the popup.
+
+![Game 1 Rules Section](https://github.com/MikesCodingCreations/Portfolio2/blob/main/assets/media/game1rules.png)
+![Game 2 Rules Section](https://github.com/MikesCodingCreations/Portfolio2/blob/main/assets/media/game2rules.png)
 
 ### Features Left to Implement
-
 - A gallery of images where users can see winning combinations. 
 - A footer with more info / links to social sites (this was not implemented as the idea of the website is a simple old style gaming site).
 - Implementation of further games i.e memory game or quizes can improve the website to provide more keeping users on the site for longer.
@@ -58,10 +61,6 @@ This project utilizes HTML, CSS and JavaScript.
 - Possibly create a 'light' version of the website where the colours are switches are it is white instead of black.
 
 ## Testing 
-
-* Expected 
-- Feature is expected to do X when the user does Y 
-* Testing - Tested the feature by doing Y Result - The feature did not respond due to A,B,C or Result - The feature acted as normally and it did Y Fix - I did Z to the code because something was missing.
 
 * Landing Page Testing
 - Expetected: 
