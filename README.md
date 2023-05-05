@@ -6,7 +6,7 @@ Users also have access playing a two player game - 'tick tac toe'.
 The purpose of the website is to provide a user the easy accessibliltiy to navigate to either game.
 This project utilizes HTML, CSS and JavaScript.
 
-![Responsice Mockup](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_full_responsive_mockup.png)
+![Responsice Mockup](https://github.com/MikesCodingCreations/Portfolio2/blob/main/assets/media/Responsive%20Mockup.png)
 
 
 ### Features 
@@ -17,7 +17,7 @@ This project utilizes HTML, CSS and JavaScript.
   - The website uses a simple, Black and 'Spring Green' colour palet. The reason for this choice is that they remind users of simple black and white games with a touch of color.
   - On this section of the site, users have access to information about the website, and the choice of two games by using the directed buttons.
 
-![Landing Page](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_full_navbar.png)
+![Landing Page]()
 
 
 - __Game 1 Section__
@@ -31,67 +31,128 @@ This project utilizes HTML, CSS and JavaScript.
   - Users may utilize the 'rules' button at the top right of the page to find out how to play.
   - Users can click on the 'Home' button at the top left of the page to navigate back home.
 
-![About Section](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_about_section.png)
+![Game 1 Section]()
 
 - __Game 2 Section__
 
-  - 
+  - The game 2 page is a simple human vs human (2 player) 'tic tac toe' game.
+  - This is also known as '3 in a row' or 'naughts and crosses'
+  - Two users will be able to take turns selecting a space on the 3 x 3 grid.
+  - Each user will be either 'X' or 'O'.
+  - To win, a user must get 3 of their symbols in a row, column or diagonally.
+  - Users are also presented with a 'restart' button presented as a square emoji button that will clear the scoreboard and start over.
+  - Each round result is calculated using JS functions and loops then displayed on the screen.
+  - Wins are calculated using JS by getting three symbols in a row.
+  - If nobody wins, the game is declared a tie and a new game can commence.
+  - Users may utilize the 'rules' button at the top right of the page to find out how to play.
+  - Users can click on the 'Home' button at the top left of the page to navigate back home.
 
-
-![About Section](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_about_section.png)
+![Game 2 Section]()
 
 ### Features Left to Implement
 
 - A gallery of images where users can see winning combinations. 
-
-- A 'partnership/user' section detailing entetites that have integrated Bitcoin
-- A live API that displays the live price for Bitcoin
+- A footer with more info / links to social sites (this was not implemented as the idea of the website is a simple old style gaming site).
+- Implementation of further games i.e memory game or quizes can improve the website to provide more keeping users on the site for longer.
+- Would be great to include a video of how each game as well as the rules to inform users further.
+- Possibly create a 'light' version of the website where the colours are switches are it is white instead of black.
 
 ## Testing 
 
-- I tested that this site works well on multiple browsers such as Google Chrome, Firefox, Safari and IE.
-- I confirm that this website is responsive, lookgs good and functions well on all standard screen sizes using the Google Chrome devtools and the 'am i responsive' website.
-- I declare that all sections including the navigation header, nav links, home, about, timeline, contact and footer sections are relatateable and simple to comprehend.
-- I can verify that the form works well and relevant fields apply (e.g., email field only accepts email responses).
+* Expected 
+- Feature is expected to do X when the user does Y 
+* Testing - Tested the feature by doing Y Result - The feature did not respond due to A,B,C or Result - The feature acted as normally and it did Y Fix - I did Z to the code because something was missing.
+
+* Landing Page Testing
+- Expetected: 
+  - Site should load up with correct styles (fonts, colours etc). 
+  - Site should provide information on the purpose.
+  - Allow users to navigate to two seperate links/pages.
+- Tested by:
+  - Tested the landing page by navigating to the main link. 
+  - Site works on multiple browsers such as Google Chrome, Firefox, Safari and IE.
+  - Testing the links by clicking on them.
+  - Tested the site als on different devices. Same outcome.
+- Works? Y
+- Any known issues? N
+
+* Game 1 testing
+- Expected: 
+  Site should 
+    - Load up with correct styles.
+    - Allow users to navigate back home using the home button.
+    - Allow users to review the game rules using the rules button.
+    - Allow users to play a game of rock paper scissors against the computer.
+    - Automatically generate a response when user selects the rock, paper or scissors emoji.
+    - Present computer results.
+    - Declare round results i.e. user won, lost or tied.
+    - Keep score of points.
+    - Calculate points based on wins, loses or ties.
+    - Allow users to reset the score.
+  - Tested by:
+    - Navigating to the game from the home screen.
+    - Clicking on each emoji, rock, paper and scissors.
+    - Identifying score is being updated.
+    - Identifying that correct results is displayed after a symbol is selected.
+    - Clicking on the restart button to confirm the results are cleared and a new game starts.
+- Works? Y
+- Any known issues? N
+  
+* Game 2 testing
+- Expected: 
+  Site should 
+    - Load up with correct styles.
+    - Allow users to navigate back home using the home button.
+    - Allow users to review the game rules using the rules button.
+    - Allow users to play a two player tic tac toe game.
+    - Automatically generate a response when each users selects a section of the grid.
+    - Present who's turn it is.
+    - Present results i.e. X or O wins or Tie.
+    - Allow users to reset the score.
+  - Tested by:
+    - Navigating to the game from the home screen.
+    - Clicking on each individual section of the grid.
+    - Identifying the turn is being updated.
+    - Identifying that correct results is displayed after each user round
+    - Clicking on the restart button to confirm the results are cleared and a new game starts.
+- Works? Y
+- Any known issues? N
 
 ## Bugs
-Solved bugs
-- When deploying my project to GitHub pages, i noticed that the CSS file was not correctly linked via the file path as the styles did not apply. Previously the filepath that i had was:
-    <link rel="stylesheet" href="assets/style.css">
-However, after a few tests, i changed the link to the correct filepath:
-    <link rel="stylesheet" href="./assets/style.css">
+Identified Bugs
+- Broken CSS/JS links.
+  - I noticed that the links to the CSS or JS kept breaking as they were not directed correctly.
+  - Solved by researching back on Code Institute site to find the correct folder paths.
+Solved: Y
 
-- When submitting the form, i discorved that the ID of certain fields were not linked and therfore did not match. I quickly changed these to ensure the form was fully connected
-
-- A bug that took a while to solve was the website responsiveness. I had to play around with 'Flexbox Froggy' to fully understand CSS Flexbox layouts to ensure the site was fully responsive on all devices.
+- The computer selection for Game 1 was not updating on the HTML interface.
+  - i noticed that each time the user selected rock, paper or scissors, the results for win, loss or tie would display but not the computer results.
+  - Solved by updating the JS code where the variable was not named correctly.
+Solved: Y
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official.
+  - No errors were returned when passing through W3C Validator.
 - CSS
-  - No errors were found when passing through the official. 
-- JShnit
-  - 
+  - No errors were found when passing through Jigsaw Validator. 
+- Jshint
+  - No major errors found when passing through Jshint Validator.
 
 ### Unfixed Bugs
-
-N/A
+N/A - All known bugs were fixed.
 
 ## Deployment
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - XXX
+The live link can be found here - https://mikescodingcreations.github.io/Portfolio2/
 
 ## Credits 
 
 Credits go to the below links for their information on how to build this site and for providing information that has been used such as icons.
-
-# Content 
 
 ### Media
 
