@@ -1,17 +1,3 @@
-<!-- 
-Rock Emoji - https://emojipedia.org/rock/
-Paper Emoji - https://emojipedia.org/roll-of-paper/
-Scissors Emoji - https://emojipedia.org/scissors/
-Restart Emoji - https://emojipedia.org/counterclockwise-arrows-button/
-Person Emoji - https://emojipedia.org/person/
-Computer Eomji - https://emojipedia.org/laptop/
-X Emoji - https://emojipedia.org/cross-mark/
-O Emoji - https://emojipedia.org/hollow-red-circle/
-Favicon - https://icons8.com/icon/cGyNxHk0jrJM/controller
-
- -->
-
-
  # Double Games
 
 The 'Double Games' website is a gaming website that allows users to play a selection of games.
@@ -31,7 +17,7 @@ This project utilizes HTML, CSS and JavaScript.
   - The website uses a simple, Black and 'Spring Green' colour palet. The reason for this choice is that they remind users of simple black and white games with a touch of color.
   - On this section of the site, users have access to information about the website, and the choice of two games by using the directed buttons.
 
-![Nav Bar](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_full_navbar.png)
+![Landing Page](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_full_navbar.png)
 
 
 - __Game 1 Section__
@@ -109,8 +95,13 @@ Credits go to the below links for their information on how to build this site an
 
 ### Media
 
-- The hero image of Bitcoin was taken from [pngitem] (https://www.pngitem.com/middle/JTbmmo_bitcoin-png-transparent-background-bitcoin-png-png-download/)
-- The video in the about section was taken from [The_Guardian] (https://www.theguardian.com/news/video/2014/apr/30/bitcoin-made-simple-video-animation)
-
----
+Rock Emoji - https://emojipedia.org/rock/
+Paper Emoji - https://emojipedia.org/roll-of-paper/
+Scissors Emoji - https://emojipedia.org/scissors/
+Restart Emoji - https://emojipedia.org/counterclockwise-arrows-button/
+Person Emoji - https://emojipedia.org/person/
+Computer Eomji - https://emojipedia.org/laptop/
+X Emoji - https://emojipedia.org/cross-mark/
+O Emoji - https://emojipedia.org/hollow-red-circle/
+Favicon - https://icons8.com/icon/cGyNxHk0jrJM/controller
 
