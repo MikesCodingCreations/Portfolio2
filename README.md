@@ -164,4 +164,5 @@ Computer Eomji - https://emojipedia.org/laptop/
 X Emoji - https://emojipedia.org/cross-mark/
 O Emoji - https://emojipedia.org/hollow-red-circle/
 Favicon - https://icons8.com/icon/cGyNxHk0jrJM/controller
+Open mouth Emoji - https://emojipedia.org/face-with-open-mouth/
 
