@@ -5,7 +5,7 @@ Users also have access playing a two player game - 'tick tac toe'.
 The purpose of the website is to provide a user the easy accessibliltiy to navigate to either game.
 This project utilizes HTML, CSS and JavaScript.
 
-![Responsice Mockup](https://github.com/MikesCodingCreations/Portfolio2/blob/main/assets/media/Responsive%20Mockup.png)
+![Responsice Mockup](https://github.com/MikesCodingCreations/Portfolio2/blob/main/assets/media/responsivemockup.png)
 
 
 ### Features 
